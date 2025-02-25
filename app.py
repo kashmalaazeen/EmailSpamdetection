@@ -13,6 +13,10 @@ from sklearn.metrics import accuracy_score
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
+import streamlit as st
+
+st.write("Python Executable:", sys.executable)
 
 try:
     from wordcloud import WordCloud
